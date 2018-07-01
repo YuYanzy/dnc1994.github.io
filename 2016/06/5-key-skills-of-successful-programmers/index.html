@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+
+
+
+
+<html class="theme-next muse" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Translation,Programming," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Wille" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="Dave Culter，今年 74 岁，仍然每天去微软上班写代码。 我第一次听说 Cutler 是在他由于自己 50 年（！）的工作经历而成为计算机历史博物馆 Fellow 的时候。作为一名将一生都贡献给了工程的程序员，他被公认为是“硬核”程序员。 更令人敬佩的是，他的工作影响到了 20 亿用户的体验。他的诸多贡献之一是编写了 Windows NT 的关键部分，而 Windows NT 则是最近">
+<meta name="keywords" content="Translation,Programming">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【翻译】成功的程序员有哪些共性？">
+<meta property="og:url" content="http://dnc1994.com/2016/06/5-key-skills-of-successful-programmers/index.html">
+<meta property="og:site_name" content="Wille">
+<meta property="og:description" content="Dave Culter，今年 74 岁，仍然每天去微软上班写代码。 我第一次听说 Cutler 是在他由于自己 50 年（！）的工作经历而成为计算机历史博物馆 Fellow 的时候。作为一名将一生都贡献给了工程的程序员，他被公认为是“硬核”程序员。 更令人敬佩的是，他的工作影响到了 20 亿用户的体验。他的诸多贡献之一是编写了 Windows NT 的关键部分，而 Windows NT 则是最近">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://d3oj8nq9p0q26f.cloudfront.net/blog/assets/images/posts/coding-f33f4f67d9aed71fdfb01b58094c13a6.jpeg">
+<meta property="og:updated_time" content="2018-07-01T13:02:50.755Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="【翻译】成功的程序员有哪些共性？">
+<meta name="twitter:description" content="Dave Culter，今年 74 岁，仍然每天去微软上班写代码。 我第一次听说 Cutler 是在他由于自己 50 年（！）的工作经历而成为计算机历史博物馆 Fellow 的时候。作为一名将一生都贡献给了工程的程序员，他被公认为是“硬核”程序员。 更令人敬佩的是，他的工作影响到了 20 亿用户的体验。他的诸多贡献之一是编写了 Windows NT 的关键部分，而 Windows NT 则是最近">
+<meta name="twitter:image" content="https://d3oj8nq9p0q26f.cloudfront.net/blog/assets/images/posts/coding-f33f4f67d9aed71fdfb01b58094c13a6.jpeg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://dnc1994.com/2016/06/5-key-skills-of-successful-programmers/"/>
+
+
+
+
+
+  <title>【翻译】成功的程序员有哪些共性？ | Wille</title>
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-48169171-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?f94ae4c12f5c838b5432d98b7783f461";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Wille</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">最後に辿り着いた場所</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://dnc1994.com/2016/06/5-key-skills-of-successful-programmers/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Linghao Zhang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/asuka.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Wille">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">【翻译】成功的程序员有哪些共性？</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-06-17T15:23:22-04:00">
+                2016-06-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Tech/" itemprop="url" rel="index">
+                    <span itemprop="name">Tech</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2016/06/5-key-skills-of-successful-programmers/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2016/06/5-key-skills-of-successful-programmers/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="https://d3oj8nq9p0q26f.cloudfront.net/blog/assets/images/posts/coding-f33f4f67d9aed71fdfb01b58094c13a6.jpeg" alt="Dave Culter"></p>
+<p>Dave Culter，今年 74 岁，仍然每天去微软上班写代码。</p>
+<p>我第一次听说 Cutler 是在他由于自己 50 年（！）的工作经历而成为计算机历史博物馆 Fellow 的时候。作为一名将一生都贡献给了工程的程序员，他被公认为是“硬核”程序员。</p>
+<p>更令人敬佩的是，他的工作影响到了 20 亿用户的体验。他的诸多贡献之一是编写了 Windows NT 的关键部分，而 Windows NT 则是最近 20 年以来所有 Windows 版本的根本。它使得操作系统可以逆向兼容旧版本的软件，从而在早期给微软带来了巨大的市场优势。由此 Culter 被称为是“微软 Windows 操作系统背后的关键技术头脑”。</p>
+<p>像 Culter 这样的程序员为何能够成功？我们又能做些什么，来匹及他们即使一小部分的成就呢？这些能够用软件为人们的生活带来巨大改变的程序员与其他普通程序员的差距究竟在哪里呢？</p>
+<a id="more"></a>
+<p>我在写《The Effective Engineer》这本书时，对于这个问题做了详细的研究。编程固然不是工程师唯一的工作，但也是主要任务之一。我采访了许多来自顶级硅谷公司的工程师领袖人物，最终发现高效的程序员们基本都有以下五个共性：</p>
+<h1 id="1-勇于钻研你不理解的代码"><a href="#1-勇于钻研你不理解的代码" class="headerlink" title="1. 勇于钻研你不理解的代码"></a>1. 勇于钻研你不理解的代码</h1><p>搞懂不熟悉的代码是一件艰难甚至令人恐惧的事情，很多人都不敢尝试就放弃了。但这对程序员来说是关键性的技能。想要提高这方面的能力，唯有多练。在这个过程中你会逐渐成长为更优秀的程序员。当开源的第三方库或是来自其他团队的代码表现不服预期时，你要好好把握这样的学习机会，深入研究源码，寻找原因。</p>
+<p>对陌生事物的恐惧是不局限于代码的。比如在每次换工作的时候，你可能都会隐隐地担心自己能不能达到上一份工作中那样的优秀表现。严重的甚至会发展成 Imposter Syndrome（出现在成功人士身上的一种现象。这类人无法将自己的成功归因于自己的能力，并总是担心有朝一日会被他人识破自己其实是骗子这件事。）。虽然很少有人公开谈论这个，但曾经有好几位 CTO 都告诉我他们觉得自己像是骗子。</p>
+<p>现实是，每个人起点不一样。Cutler 当年读的是文学院，没有接受正式的计算机科学教育。所以跟其他同伴相比，他在起跑线上就落后一大截，只能不断尝试和摸索来追赶别人。</p>
+<p>为了能够做得更好，我们要采取进取的心态，并最优化自己的学习策略。只要你愿意花时间，任何技能，像是写代码、沟通、社交、做讲座等等，都是能够学习和提高的。去相关的书，找前人询问。长此以往，挑战不熟悉的内容会变得越来越容易。</p>
+<h2 id="2-熟练掌握调试技巧"><a href="#2-熟练掌握调试技巧" class="headerlink" title="2. 熟练掌握调试技巧"></a>2. 熟练掌握调试技巧</h2><p>作为软件工程师，我们每天都会问自己：“为什么我的代码表现不符预期？”调试代码的能力在很大程度上决定了一个程序员的效率，但这一点却经常在大学教育和技术面试中被忽略或者低估。</p>
+<p>如何高效调试？从根本来说，要采取科学的方法：</p>
+<ul>
+<li>猜测问题所在</li>
+<li>假设猜想正确，找出应该会得到的结果</li>
+<li>试图找到跟预想的结果矛盾的证据</li>
+<li>如果找到了矛盾，那么猜想不成立，换一个；如果找不到，这个猜想就很有可能是真正的原因。</li>
+</ul>
+<p>基于此之上，要进一步提高调试效率，你要学习如何更准确地猜测问题所在，并且熟练掌握哪些能让你更好地观察代码行为的工具和技巧。</p>
+<p>要更准确地猜测问题所在，唯有多练；而更好地观察代码行为，需要你提高自己的技术水平。假定所有行为都能被观察到，那么你就要找到合适的工具或是机制使得你能够更快地找到预想的证据。不要把自己的思维局限于只寻找那些你已经熟悉的工具所能提供的观察点。很多时候早就有人开发过能够找到你想要的东西的工具了。</p>
+<h2 id="3-投资在节省时间的工具上"><a href="#3-投资在节省时间的工具上" class="headerlink" title="3. 投资在节省时间的工具上"></a>3. 投资在节省时间的工具上</h2><p>早期的计算机，资源有限而且昂贵，所以那时的程序员在写代码时都精打细算。而现在，用 AWS 做一个小时的云计算花不了一美分。</p>
+<p>但有一类资源是这几十年来都没有变的：时间。我们的一周还会是只有 7 天，一天还是只有 24 个小时。也就是说任何需要人工来做的事情，依然是非常容易成为瓶颈的。为了缓解这个问题，我们需要去掌握一些节省时间的工作，同时自动化工作流程。工具能让我们在相同的时间内创造更多的价值，而自动化则能让一些机械性的重复问题在我们睡觉的时候被解决，从而让我们把有更多的时间花在其他问题上。</p>
+<p>Bobby Johnson，前 Facebook 工程主管，曾经将 6 个人的基础架构团队带到超过 100 个人为止。他在面试中说过一句话让我印象很深。他说，几乎每一个成功的程序员，都写过很多工具。</p>
+<p>可能很多工程师都知道投资工具一定会有回报，但如果我们实际地把花在各类事情上的时间统计一下就会发现，用于开发工具的时间好像并不多。而 Johnson 团队中最好的程序员几乎把三分之一的时间都花在了工具上：代码部署工具、系统监控工具、以及任何能够让他们用更少的时间做到更多的事情的工具。</p>
+<p>如果一件事，机器能为你代劳，就不要再自己去做了。</p>
+<h2 id="4-优化迭代速度"><a href="#4-优化迭代速度" class="headerlink" title="4. 优化迭代速度"></a>4. 优化迭代速度</h2><p>假设从一个函数调用找到它的原型需要花费 12 秒，而你每天要做 60 次类似的查找。也就是说你每天要花 12 分钟的时间在查找函数上。如果你能够通过熟练掌握编辑器的键盘快捷键，把 12 秒缩短到 2 秒，那么你每天就能省下 10 分钟。一年就能省下 40 个小时，这就是整整一周的工作时间。</p>
+<p>如果再找到 3 处类似的优化，一年就能省下一个月。想想你能用这一个月多做多少事情吧！</p>
+<p>又比如说你在调试，你发现每次需要启动应用，先后点击五次鼠标，从而达成对应的条件来触发一个 bug。那么你能不能花 10 分钟写一段模拟代码使得每次重新启动应用都能直接触发 bug 呢？只要 10 分钟，将来的调试都能节省大量的时间，这笔投资不划算吗？</p>
+<p>总是系统性地问自己：“我要如何才能更快地迭代？”你将会收获许多，并且随着时间的推移，回报就像利滚利一样变得越来越丰厚。</p>
+<h2 id="5-培养系统层面的思维方式"><a href="#5-培养系统层面的思维方式" class="headerlink" title="5. 培养系统层面的思维方式"></a>5. 培养系统层面的思维方式</h2><p>当你按照技术文档写完了对应的代码，你可能就会觉得自己的工作完成了。但这真的只是冰山一角。躺在仓库里面而不是在生产环境中的代码没有任何价值。</p>
+<p>要开发和部署实际有用的代码，你需要将自己的思维提高一个层次，思考自己的代码对整个系统来说有什么影响：</p>
+<ul>
+<li>你的代码能跟其他人写的功能很好地共同工作么？</li>
+<li>你是否对代码做了充分的测试？如果有 QA 团队，他们能正常地使用你实现的功能么？</li>
+<li>要将你的代码部署到生成环境中，需要做哪些改动？</li>
+<li>你的代码会对系统中的其他部分造成负面的性能影响吗？</li>
+<li>你是否已经考虑到了跟你的代码进行交互的用户会表现出的所有行为？</li>
+<li>你的代码是否能够取得预想的商业影响？</li>
+</ul>
+<p>这些问题的确很难，都不是轻易能回答的。但你要对自己的代码如何融入整体的环境有一个清晰的认识，从而更好地将时间和精力分配到最能够带来积极影响的地方。</p>
+<hr>
+<p>记住这五点，你就已经走上成为成功的程序员的道路了。但前路漫漫，始终牢记，一个优秀的程序员并不是只会写代码而已。</p>
+<h2 id="译注"><a href="#译注" class="headerlink" title="译注"></a>译注</h2><p>译者：<a href="mailto:zlhdnc1994@gmail.com" target="_blank" rel="noopener">章凌豪</a></p>
+<p><a href="http://www.theeffectiveengineer.com/blog/five-key-skills-of-successful-programmers" target="_blank" rel="noopener">原文链接</a></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>Buy me an Asahi Beer :)</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/uploads/alipay.jpg" alt="Linghao Zhang 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Translation/" rel="tag"># Translation</a>
+          
+            <a href="/tags/Programming/" rel="tag"># Programming</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/06/lean-analytics-notes/" rel="next" title="Notes on Lean analytics">
+                <i class="fa fa-chevron-left"></i> Notes on Lean analytics
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/06/notes-on-alistair-crolls-workshop-about-lean-analytics-and-growth-hacking/" rel="prev" title="Notes on Alistair Croll's Workshop about Lean Analytics and Growth Hacking">
+                Notes on Alistair Croll's Workshop about Lean Analytics and Growth Hacking <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/asuka.png"
+                alt="Linghao Zhang" />
+            
+              <p class="site-author-name" itemprop="name">Linghao Zhang</p>
+              <p class="site-description motion-element" itemprop="description">Creating and Distilling Knowledge</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">17</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">58</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/dnc1994" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:linghaozh@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://twitter.com/instante_42" target="_blank" title="Twitter">
+                      
+                        <i class="fa fa-fw fa-twitter"></i>Twitter</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.instagram.com/instante_42" target="_blank" title="Instagram">
+                      
+                        <i class="fa fa-fw fa-instagram"></i>Instagram</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+            <div class="cc-license motion-element" itemprop="license">
+              <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" class="cc-opacity" target="_blank">
+                <img src="/images/cc-by-nc-nd.svg" alt="Creative Commons" />
+              </a>
+            </div>
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-勇于钻研你不理解的代码"><span class="nav-number">1.</span> <span class="nav-text">1. 勇于钻研你不理解的代码</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-熟练掌握调试技巧"><span class="nav-number">1.1.</span> <span class="nav-text">2. 熟练掌握调试技巧</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-投资在节省时间的工具上"><span class="nav-number">1.2.</span> <span class="nav-text">3. 投资在节省时间的工具上</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-优化迭代速度"><span class="nav-number">1.3.</span> <span class="nav-text">4. 优化迭代速度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-培养系统层面的思维方式"><span class="nav-number">1.4.</span> <span class="nav-text">5. 培养系统层面的思维方式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#译注"><span class="nav-number">1.5.</span> <span class="nav-text">译注</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Linghao Zhang</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://wille-lhz.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://dnc1994.com/2016/06/5-key-skills-of-successful-programmers/';
+          this.page.identifier = '2016/06/5-key-skills-of-successful-programmers/';
+          this.page.title = '【翻译】成功的程序员有哪些共性？';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://wille-lhz.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
