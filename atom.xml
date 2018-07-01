@@ -97,11 +97,11 @@
       <category term="Notes" scheme="http://dnc1994.com/categories/Notes/"/>
     
     
+      <category term="Entrepreneurship" scheme="http://dnc1994.com/tags/Entrepreneurship/"/>
+    
       <category term="Growth Hacking" scheme="http://dnc1994.com/tags/Growth-Hacking/"/>
     
       <category term="Lean Analytics" scheme="http://dnc1994.com/tags/Lean-Analytics/"/>
-    
-      <category term="Entrepreneurship" scheme="http://dnc1994.com/tags/Entrepreneurship/"/>
     
       <category term="Start-up" scheme="http://dnc1994.com/tags/Start-up/"/>
     
@@ -129,6 +129,8 @@
     
     
       <category term="Translation" scheme="http://dnc1994.com/tags/Translation/"/>
+    
+      <category term="Frontend Development" scheme="http://dnc1994.com/tags/Frontend-Development/"/>
     
       <category term="Web Development" scheme="http://dnc1994.com/tags/Web-Development/"/>
     
@@ -158,8 +160,6 @@
     
       <category term="NVD3" scheme="http://dnc1994.com/tags/NVD3/"/>
     
-      <category term="Frontend Development" scheme="http://dnc1994.com/tags/Frontend-Development/"/>
-    
   </entry>
   
   <entry>
@@ -182,17 +182,21 @@
       <category term="Data Science" scheme="http://dnc1994.com/categories/Data-Science/"/>
     
     
-      <category term="Data Science" scheme="http://dnc1994.com/tags/Data-Science/"/>
+      <category term="XGBoost" scheme="http://dnc1994.com/tags/XGBoost/"/>
+    
+      <category term="Kaggle" scheme="http://dnc1994.com/tags/Kaggle/"/>
     
       <category term="Machine Learning" scheme="http://dnc1994.com/tags/Machine-Learning/"/>
     
-      <category term="Python" scheme="http://dnc1994.com/tags/Python/"/>
+      <category term="Data Science" scheme="http://dnc1994.com/tags/Data-Science/"/>
     
-      <category term="Kaggle" scheme="http://dnc1994.com/tags/Kaggle/"/>
+      <category term="Python" scheme="http://dnc1994.com/tags/Python/"/>
     
       <category term="Ensemble Learning" scheme="http://dnc1994.com/tags/Ensemble-Learning/"/>
     
       <category term="Stacking" scheme="http://dnc1994.com/tags/Stacking/"/>
+    
+      <category term="Scikit-learn" scheme="http://dnc1994.com/tags/Scikit-learn/"/>
     
       <category term="Pandas" scheme="http://dnc1994.com/tags/Pandas/"/>
     
@@ -201,10 +205,6 @@
       <category term="Matplotlib" scheme="http://dnc1994.com/tags/Matplotlib/"/>
     
       <category term="Natural Language Processing" scheme="http://dnc1994.com/tags/Natural-Language-Processing/"/>
-    
-      <category term="XGBoost" scheme="http://dnc1994.com/tags/XGBoost/"/>
-    
-      <category term="Scikit-learn" scheme="http://dnc1994.com/tags/Scikit-learn/"/>
     
   </entry>
   
@@ -228,17 +228,21 @@
       <category term="Data Science" scheme="http://dnc1994.com/categories/Data-Science/"/>
     
     
-      <category term="Data Science" scheme="http://dnc1994.com/tags/Data-Science/"/>
+      <category term="XGBoost" scheme="http://dnc1994.com/tags/XGBoost/"/>
+    
+      <category term="Kaggle" scheme="http://dnc1994.com/tags/Kaggle/"/>
     
       <category term="Machine Learning" scheme="http://dnc1994.com/tags/Machine-Learning/"/>
     
-      <category term="Python" scheme="http://dnc1994.com/tags/Python/"/>
+      <category term="Data Science" scheme="http://dnc1994.com/tags/Data-Science/"/>
     
-      <category term="Kaggle" scheme="http://dnc1994.com/tags/Kaggle/"/>
+      <category term="Python" scheme="http://dnc1994.com/tags/Python/"/>
     
       <category term="Ensemble Learning" scheme="http://dnc1994.com/tags/Ensemble-Learning/"/>
     
       <category term="Stacking" scheme="http://dnc1994.com/tags/Stacking/"/>
+    
+      <category term="Scikit-learn" scheme="http://dnc1994.com/tags/Scikit-learn/"/>
     
       <category term="Pandas" scheme="http://dnc1994.com/tags/Pandas/"/>
     
@@ -247,10 +251,6 @@
       <category term="Matplotlib" scheme="http://dnc1994.com/tags/Matplotlib/"/>
     
       <category term="Natural Language Processing" scheme="http://dnc1994.com/tags/Natural-Language-Processing/"/>
-    
-      <category term="XGBoost" scheme="http://dnc1994.com/tags/XGBoost/"/>
-    
-      <category term="Scikit-learn" scheme="http://dnc1994.com/tags/Scikit-learn/"/>
     
   </entry>
   
@@ -273,39 +273,39 @@
       <category term="Knowledge" scheme="http://dnc1994.com/categories/Knowledge/"/>
     
     
-      <category term="English Language" scheme="http://dnc1994.com/tags/English-Language/"/>
-    
       <category term="TOEFL" scheme="http://dnc1994.com/tags/TOEFL/"/>
     
       <category term="GRE" scheme="http://dnc1994.com/tags/GRE/"/>
+    
+      <category term="English Language" scheme="http://dnc1994.com/tags/English-Language/"/>
     
       <category term="Gradschool" scheme="http://dnc1994.com/tags/Gradschool/"/>
     
   </entry>
   
   <entry>
-    <title>Installing Xgboost on Windows</title>
+    <title>Installing XGBoost on Windows</title>
     <link href="http://dnc1994.com/2016/03/installing-xgboost-on-windows/"/>
     <id>http://dnc1994.com/2016/03/installing-xgboost-on-windows/</id>
     <published>2016-03-10T21:14:15.000Z</published>
-    <updated>2018-07-01T14:39:06.110Z</updated>
+    <updated>2018-07-01T14:56:55.726Z</updated>
     
-    <content type="html"><![CDATA[<p><a href="https://github.com/dmlc/xgboost" target="_blank" rel="noopener">Xgboost</a> is widely used in Kaggle competitions. For those who prefer to use Windows, installing xgboost could be a painstaking process. Therefore I wrote this note to save your time.</p><a id="more"></a><h2 id="Building-Xgboost"><a href="#Building-Xgboost" class="headerlink" title="Building Xgboost"></a>Building Xgboost</h2><p>To be fair, there is nothing wrong about the <a href="http://xgboost.readthedocs.org/en/latest/build.html" target="_blank" rel="noopener">official guide</a> for installing Xgboost on Windows. But still, I’d love to stress several points here.</p><pre><code>git clone --recursive https://github.com/dmlc/xgboost  cd xgboost  wget https://www.dropbox.com/s/y8myex4bnuzcp03/Makefile_win?dl=1cp Makefile_win Makefilecp make/mingw64.mk config.mkmingw32-make  </code></pre><p><strong>Note that:</strong></p><ol><li><code>Makefile_win</code> is a modified version (thanks to <a href="mailto:xiyou.zhou@gmail" target="_blank" rel="noopener">Zhou Xiyou</a>) of the original <code>Makefile</code> to suit the building process on Windows. You can wget it or download it <a href="https://www.dropbox.com/s/y8myex4bnuzcp03/Makefile_win?dl=0" target="_blank" rel="noopener">here</a>.</li><li>Be sure to use a UNIX shell because Windows CMD has issue with <code>mkdir -p</code> command. Git Bash is recommended.</li><li>Be sure to use <code>--recursive</code> option with <code>git clone</code>.</li><li>Be sure to use a proper MinGW. <a href="http://tdm-gcc.tdragon.net/download" target="_blank" rel="noopener">TDM-GCC</a> is recommended. Note that by default it wouldn’t install OpenMP for you. You need to specifiy it otherwise the building would fail.</li></ol><p><img src="http://7xlo8f.com1.z0.glb.clouddn.com/blog-tdm-gcc-openmp.png" alt="TDM-GCC OpenMP"></p><h2 id="Installing-Python-Bindings"><a href="#Installing-Python-Bindings" class="headerlink" title="Installing Python Bindings"></a>Installing Python Bindings</h2><p>This should be straightforward enough.</p><pre><code>cd python-package  python setup.py install  </code></pre><h2 id="Done-Enjoy"><a href="#Done-Enjoy" class="headerlink" title="Done! Enjoy!"></a>Done! Enjoy!</h2>]]></content>
+    <content type="html"><![CDATA[<p><a href="https://github.com/dmlc/xgboost" target="_blank" rel="noopener">XGBoost</a> is widely used in Kaggle competitions. For those who prefer to use Windows, installing xgboost could be a painstaking process. Therefore I wrote this note to save your time.</p><a id="more"></a><h2 id="Building-XGBoost"><a href="#Building-XGBoost" class="headerlink" title="Building XGBoost"></a>Building XGBoost</h2><p>To be fair, there is nothing wrong about the <a href="http://xgboost.readthedocs.org/en/latest/build.html" target="_blank" rel="noopener">official guide</a> for installing XGBoost on Windows. But still, I’d love to stress several points here.</p><pre><code>git clone --recursive https://github.com/dmlc/xgboost  cd xgboost  wget https://www.dropbox.com/s/y8myex4bnuzcp03/Makefile_win?dl=1cp Makefile_win Makefilecp make/mingw64.mk config.mkmingw32-make  </code></pre><p><strong>Note that:</strong></p><ol><li><code>Makefile_win</code> is a modified version (thanks to <a href="mailto:xiyou.zhou@gmail" target="_blank" rel="noopener">Zhou Xiyou</a>) of the original <code>Makefile</code> to suit the building process on Windows. You can wget it or download it <a href="https://www.dropbox.com/s/y8myex4bnuzcp03/Makefile_win?dl=0" target="_blank" rel="noopener">here</a>.</li><li>Be sure to use a UNIX shell because Windows CMD has issue with <code>mkdir -p</code> command. Git Bash is recommended.</li><li>Be sure to use <code>--recursive</code> option with <code>git clone</code>.</li><li>Be sure to use a proper MinGW. <a href="http://tdm-gcc.tdragon.net/download" target="_blank" rel="noopener">TDM-GCC</a> is recommended. Note that by default it wouldn’t install OpenMP for you. You need to specifiy it otherwise the building would fail.</li></ol><p><img src="http://7xlo8f.com1.z0.glb.clouddn.com/blog-tdm-gcc-openmp.png" alt="TDM-GCC OpenMP"></p><h2 id="Installing-Python-Bindings"><a href="#Installing-Python-Bindings" class="headerlink" title="Installing Python Bindings"></a>Installing Python Bindings</h2><p>This should be straightforward enough.</p><pre><code>cd python-package  python setup.py install  </code></pre><h2 id="Done-Enjoy"><a href="#Done-Enjoy" class="headerlink" title="Done! Enjoy!"></a>Done! Enjoy!</h2>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;https://github.com/dmlc/xgboost&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Xgboost&lt;/a&gt; is widely used in Kaggle competitions. For those who prefer to use Windows, installing xgboost could be a painstaking process. Therefore I wrote this note to save your time.&lt;/p&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/dmlc/xgboost&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;XGBoost&lt;/a&gt; is widely used in Kaggle competitions. For those who prefer to use Windows, installing xgboost could be a painstaking process. Therefore I wrote this note to save your time.&lt;/p&gt;
     
     </summary>
     
       <category term="Machine Learning" scheme="http://dnc1994.com/categories/Machine-Learning/"/>
     
     
-      <category term="Machine Learning" scheme="http://dnc1994.com/tags/Machine-Learning/"/>
+      <category term="XGBoost" scheme="http://dnc1994.com/tags/XGBoost/"/>
     
       <category term="Kaggle" scheme="http://dnc1994.com/tags/Kaggle/"/>
     
-      <category term="XGBoost" scheme="http://dnc1994.com/tags/XGBoost/"/>
+      <category term="Machine Learning" scheme="http://dnc1994.com/tags/Machine-Learning/"/>
     
   </entry>
   
@@ -330,11 +330,11 @@
       <category term="Notes" scheme="http://dnc1994.com/categories/Notes/"/>
     
     
+      <category term="MOOC" scheme="http://dnc1994.com/tags/MOOC/"/>
+    
       <category term="Learning Theory" scheme="http://dnc1994.com/tags/Learning-Theory/"/>
     
       <category term="Neuroscience" scheme="http://dnc1994.com/tags/Neuroscience/"/>
-    
-      <category term="MOOC" scheme="http://dnc1994.com/tags/MOOC/"/>
     
   </entry>
   
