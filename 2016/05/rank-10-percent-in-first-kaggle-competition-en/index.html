@@ -85,16 +85,16 @@
 <meta property="og:site_name" content="Wille">
 <meta property="og:description" content="IntroductionKaggle is the best place to learn from other data scientists. Many companies provide data and prize money to set up data science competitions on Kaggle. Recently I had my first shot on Kag">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://7xlo8f.com1.z0.glb.clouddn.com/blog-kaggle_profile.png">
-<meta property="og:image" content="http://7xlo8f.com1.z0.glb.clouddn.com/blog-example_outlier.png">
-<meta property="og:image" content="http://7xlo8f.com1.z0.glb.clouddn.com/blog-example-dummies.png">
-<meta property="og:image" content="http://7xlo8f.com1.z0.glb.clouddn.com/blog-vis_check_feat.png">
-<meta property="og:image" content="http://7xlo8f.com1.z0.glb.clouddn.com/blog-diagram-stacking.jpg">
-<meta property="og:updated_time" content="2018-07-01T14:39:58.994Z">
+<meta property="og:image" content="http://dnc1994.com/2016/05/rank-10-percent-in-first-kaggle-competition-en/kaggle-guide-profile.png">
+<meta property="og:image" content="http://dnc1994.com/2016/05/rank-10-percent-in-first-kaggle-competition-en/kaggle-guide-outlier-example.png">
+<meta property="og:image" content="http://dnc1994.com/2016/05/rank-10-percent-in-first-kaggle-competition-en/kaggle-guide-dummies-example.png">
+<meta property="og:image" content="http://dnc1994.com/2016/05/rank-10-percent-in-first-kaggle-competition-en/kaggle-visualize-feature-correlation.png">
+<meta property="og:image" content="http://dnc1994.com/2016/05/rank-10-percent-in-first-kaggle-competition-en/kaggle-guide-stacking-diagram.jpg">
+<meta property="og:updated_time" content="2018-10-08T06:04:04.911Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="How to Rank 10% in Your First Kaggle Competition">
 <meta name="twitter:description" content="IntroductionKaggle is the best place to learn from other data scientists. Many companies provide data and prize money to set up data science competitions on Kaggle. Recently I had my first shot on Kag">
-<meta name="twitter:image" content="http://7xlo8f.com1.z0.glb.clouddn.com/blog-kaggle_profile.png">
+<meta name="twitter:image" content="http://dnc1994.com/2016/05/rank-10-percent-in-first-kaggle-competition-en/kaggle-guide-profile.png">
 
 
 
@@ -305,7 +305,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-05-10T23:06:51-04:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-05-10T23:06:51+08:00">
                 2016-05-10
               </time>
             
@@ -398,7 +398,7 @@
 <p><em>This post is also available in <a href="https://dnc1994.com/2016/04/rank-10-percent-in-first-kaggle-competition/">Chinese</a>.</em></p>
 <p><strong>Updated on Oct 28th, 2016: </strong> I made many wording changes and added several updates to this post. Note that Kaggle has went through some major changes since I published this post, especially with its ranking system. Therefore some descriptions here might not apply anymore.</p>
 <a id="more"></a>
-<p><img src="http://7xlo8f.com1.z0.glb.clouddn.com/blog-kaggle_profile.png" alt="Kaggle Profile"></p>
+<p><img src="kaggle-guide-profile.png" alt="Kaggle Profile"></p>
 <p>Most Kagglers use Python or R. I prefer Python, but R users should have no difficulty in understanding the ideas behind tools and languages.</p>
 <p>First let’s go through some facts about Kaggle competitions in case you are not familiar with them.</p>
 <ul>
@@ -442,15 +442,15 @@
 </ul>
 <p>How we choose to perform preprocessing largely depends on what we learn about the data in the previous stage. In practice, I recommend using <strong><a href="http://ipython.org/notebook.html" target="_blank" rel="noopener">Jupyter Notebook</a></strong> for data manipulation and mastering usage of frequently used Pandas operations. The advantage is that you get to see the results immediately and are able to modify or rerun code blocks. This also makes it very convenient to share your approach with others. After all <a href="https://en.wikipedia.org/wiki/Reproducibility" target="_blank" rel="noopener">reproducible results</a> are very important in data science.</p>
 <p>Let’s see some examples.</p>
-<h4 id="Outlier"><a href="#Outlier" class="headerlink" title="Outlier"></a>Outlier</h4><p><img src="http://7xlo8f.com1.z0.glb.clouddn.com/blog-example_outlier.png" alt="Outlier Example"></p>
+<h4 id="Outlier"><a href="#Outlier" class="headerlink" title="Outlier"></a>Outlier</h4><p><img src="kaggle-guide-outlier-example.png" alt="Outlier Example"></p>
 <p>The plot shows some scaled coordinates data. We can see that there are some outliers in the top-right corner. Exclude them and the distribution looks good.</p>
 <h4 id="Dummy-Variables"><a href="#Dummy-Variables" class="headerlink" title="Dummy Variables"></a>Dummy Variables</h4><p>For categorical variables, a common practice is <strong><a href="https://en.wikipedia.org/wiki/One-hot" target="_blank" rel="noopener">One-hot Encoding</a></strong>. For a categorical variable with <code>n</code> possible values, we create a group of <code>n</code> dummy variables. Suppose a record in the data takes one value for this variable, then the corresponding dummy variable is set to <code>1</code> while other dummies in the same group are all set to <code>0</code>.</p>
-<p><img src="http://7xlo8f.com1.z0.glb.clouddn.com/blog-example-dummies.png" alt="Dummies Example"></p>
+<p><img src="kaggle-guide-dummies-example.png" alt="Dummies Example"></p>
 <p>In this example, we transform <code>DayOfWeek</code> into 7 dummy variables.</p>
 <p>Note that when the categorical variable can take many values (hundreds or more), this might not work well. It’s difficult to find a general solution to that, but I’ll discuss one scenario in the next section.</p>
 <h3 id="Feature-Engineering"><a href="#Feature-Engineering" class="headerlink" title="Feature Engineering"></a>Feature Engineering</h3><p>Some describe the essence of Kaggle competitions as <strong>feature engineering supplemented by model tuning and ensemble learning</strong>. Yes, that makes a lot of sense. <strong>Feature engineering gets your very far.</strong> Yet it is how well you know about the domain of given data that decides how far you can go. For example, in a competition where data is mainly consisted of texts, Natural Language Processing teachniques are a must. The approach of constructing useful features is something we all have to continuously learn in order to do better.</p>
 <p>Basically, <strong>when you feel that a variable is intuitively useful for the task, you can include it as a feature</strong>. But how do you know it actually works? The simplest way is to plot it against the target variable like this:</p>
-<p><img src="http://7xlo8f.com1.z0.glb.clouddn.com/blog-vis_check_feat.png" alt="Checking Feature Validity"></p>
+<p><img src="kaggle-visualize-feature-correlation.png" alt="Checking Feature Validity"></p>
 <h4 id="Feature-Selection"><a href="#Feature-Selection" class="headerlink" title="Feature Selection"></a>Feature Selection</h4><p>Generally speaking, <strong>we should try to craft as many features as we can and have faith in the model’s ability to pick up the most significant features</strong>. Yet there’s still something to gain from feature selection beforehand:</p>
 <ul>
 <li>Less features mean faster training</li>
@@ -525,7 +525,7 @@
 </ul>
 <p>Actually we have a <strong>trade-off</strong> here. In practice we may end up with highly related models of comparable performances. Yet we ensemble them anyway because it usually increase the overall performance.</p>
 <h4 id="Stacking"><a href="#Stacking" class="headerlink" title="Stacking"></a>Stacking</h4><p>Compared with blending, stacking makes better use of training data. Here’s a diagram of how it works:</p>
-<p><img src="http://7xlo8f.com1.z0.glb.clouddn.com/blog-diagram-stacking.jpg" alt="Stacking"></p>
+<p><img src="kaggle-guide-stacking-diagram.jpg" alt="Stacking"></p>
 <p><em>(Taken from <a href="https://www.kaggle.com/mmueller" target="_blank" rel="noopener">Faron</a>. Many thanks!)</em></p>
 <p>It’s much like cross validation. Take 5-fold stacking as an example. First we split the training data into 5 folds. Next we will do 5 iterations. In each iteration, train every base model on 4 folds and predict on the hold-out fold. <strong>You have to keep the predictions on the testing data as well.</strong> This way, in each iteration every base model will make predictions on 1 fold of the training data and all of the testing data. After 5 iterations we will obtain a matrix of shape <code>#(samples in training data) X #(base models)</code>. This matrix is then fed to the stacker (it’s just another model) in the second level. After the stacker is fitted, use the predictions on testing data by base models (<strong>each base model is trained 5 times, therefore we have to take an average to obtain a matrix of the same shape</strong>) as the input for the stacker and obtain our final predictions.</p>
 <p>Maybe it’s better to just show the codes:</p>
@@ -677,7 +677,7 @@
 
     
       <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="/uploads/alipay.jpg" alt="Linghao Zhang Alipay"/>
+        <img id="alipay_qr" src="/uploads/donate-alipay.jpg" alt="Linghao Zhang Alipay"/>
         <p>Alipay</p>
       </div>
     
